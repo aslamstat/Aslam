@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main8"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+  android:orientation="vertical"
+    android:background="@android:color/holo_blue_bright"
+    tools:context="com.example.laptoppoint.gh.Main8Activity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WELCOME"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:layout_margin="4dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="10dp"/>
+
+    <Button
+        android:id="@+id/nasira"
+        android:text="Chief Guest   "
+        android:textStyle="bold"
+        android:textSize="22dp"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_margin="4dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="10dp"
+        android:textColor="@android:color/holo_orange_light"
+        android:background="@android:color/darker_gray"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mohammad Nasim, MP Honorable Minister, Ministry of Health and Family Welfare, People’s Republic of Bangladesh "
+        android:textStyle="bold"
+        android:textSize="14dp"
+        android:layout_margin="4dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="10dp"/>
+    <Button
+        android:id="@+id/nasir"
+        android:text="Special Gues   "
+        android:textStyle="bold"
+        android:textSize="22dp"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_margin="4dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="10dp"
+        android:textColor="@android:color/holo_orange_light"
+        android:background="@android:color/darker_gray"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Professor Md. Yousuf Ali Mollah Honorable Member, UGC
+                                            Dr. A. Atiq Rahman Executive Director, BCAC
+                                          Professor Dr. Chowdhuri Sarwar Jahan Honorable Pro-Vice Chancellor, RU
+                                           Dr. Md. Mokhlesur Rahman SOO, World Bank "
+        android:textStyle="bold"
+        android:textSize="14dp"
+        android:layout_margin="4dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="10dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/lt"
+            android:text="previous"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/dcsa"
+            android:text="Next"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/thanha"
+            android:text="Go to Second Page"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill_vertical"/>
+    </LinearLayout>
+
+    </LinearLayout>

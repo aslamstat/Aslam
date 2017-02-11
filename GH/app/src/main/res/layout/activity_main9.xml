@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main9"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    android:orientation="vertical"
+    tools:context="com.example.laptoppoint.gh.Main9Activity">
+    <Button
+        android:id="@+id/me"
+        android:text="Guest of Honor    "
+        android:textStyle="bold"
+        android:textSize="18dp"
+
+        android:textColor="@android:color/holo_orange_light"
+        android:background="@android:color/darker_gray"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dr. Gauranga Chandra Mohanta, Project Director,  HEQEP, Bangladesh "
+        android:textStyle="bold"
+        android:textSize="13dp"
+        android:textColor="@android:color/white"
+        android:layout_margin="2dp"
+        android:paddingBottom="5dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="5dp"/>
+    <Button
+        android:id="@+id/dol"
+        android:text="Welcome Address   "
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_margin="2dp"
+        android:paddingBottom="5dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="5dp"
+        android:textColor="@android:color/holo_orange_light"
+        android:background="@android:color/darker_gray"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Professor Dr. M. Sayedur Rahman Convenor, ICBBAHE-2017   "
+        android:textStyle="bold"
+        android:textSize="13dp"
+        android:textColor="@android:color/white"
+        android:layout_margin="2dp"
+        android:paddingBottom="5dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="5dp"/>
+
+    <Button
+        android:id="@+id/maria"
+        android:text="Vote of Thanks  "
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_margin="2dp"
+        android:paddingBottom="5dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="5dp"
+        android:textColor="@android:color/holo_orange_light"
+        android:background="@android:color/darker_gray"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Professor Dr. Md. Ayub Ali Chairman, Department of Statistics, RU "
+        android:textStyle="bold"
+        android:textSize="13dp"
+        android:textColor="@android:color/white"
+        android:layout_margin="2dp"
+        android:paddingBottom="5dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="5dp"/>
+    <Button
+        android:id="@+id/dola"
+        android:text="Chairperson   "
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_margin="2dp"
+        android:paddingBottom="5dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="5dp"
+        android:textColor="@android:color/holo_orange_light"
+        android:background="@android:color/darker_gray"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Professor Dr. Mohammad Mizanuddin Honorable Vice Chancellor, RU  "
+        android:textStyle="bold"
+        android:textSize="13dp"
+        android:textColor="@android:color/white"
+        android:layout_margin="2dp"
+        android:paddingBottom="5dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="5dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/lt"
+            android:text="previous"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/thanha"
+            android:text="Go to Second Page"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill_vertical"/>
+    </LinearLayout>
+
+</LinearLayout>

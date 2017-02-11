@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main10"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:orientation="vertical"
+    android:background="@android:color/holo_green_dark"
+    tools:context="com.example.laptoppoint.gh.Main10Activity">
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TIME"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:layout_margin="1dp"
+        android:textColor="@android:color/background_dark"
+        android:background="@android:color/white"
+        />
+    <Button
+        android:id="@+id/raju"
+        android:text="08:30-09:30 "
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_margin="2dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="10dp"
+        android:textColor="@android:color/holo_red_light"
+        android:background="@android:color/darker_gray"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/nasira"
+        android:text="09:30-09:50   Photo Session and Tea Break  "
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_margin="2dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="10dp"
+        android:textColor="@android:color/holo_orange_light"
+        android:background="@android:color/darker_gray"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/han"
+        android:text="09:50-11:50 "
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_margin="4dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="10dp"
+        android:textColor="@android:color/holo_orange_light"
+        android:background="@android:color/holo_orange_dark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/stat"
+        android:text="11:50-12:00 Tea Break "
+        android:textStyle="bold"
+        android:textSize="16dp"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_margin="4dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="10dp"
+        android:textColor="@android:color/background_dark"
+        android:background="@android:color/darker_gray"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/stata"
+        android:text="12:00-13:00 "
+        android:textStyle="bold"
+        android:textSize="16dp"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_margin="4dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="10dp"
+        android:textColor="@android:color/background_dark"
+        android:background="@android:color/darker_gray"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/star"
+        android:text="12:00-13:00 "
+        android:textStyle="bold"
+        android:textSize="16dp"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_margin="4dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="10dp"
+        android:textColor="@android:color/background_dark"
+        android:background="@android:color/darker_gray"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/op"
+            android:text="previous"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+
+            android:layout_gravity="fill_vertical"/>
+
+</LinearLayout>
